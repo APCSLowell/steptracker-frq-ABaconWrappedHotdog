@@ -34,4 +34,3 @@ private int minSteps;
     return (int)((double) totalSteps / totDays);
   }
  }
-} 
