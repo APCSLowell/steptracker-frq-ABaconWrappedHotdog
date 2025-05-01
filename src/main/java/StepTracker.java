@@ -29,8 +29,8 @@ private int minSteps;
   }
 
   // Returns average steps per day
-  public int averageSteps() {
-    if (totDays == 0) return 0;
-    return (int)((double) totalSteps / totDays);
-  }
+ public double averageSteps() {
+  if (totDays == 0) return 0.0;
+  return (double) totalSteps / totDays;
+}
  }
